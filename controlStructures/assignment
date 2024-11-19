@@ -1,0 +1,13 @@
+
+const classDetails = [
+    {Name: "Olamide Hafeez", age: 32, course: " Frontend Web development", gender: "male", school : "New Horizon College"},
+    {Name: "Ademola Folake", age: 24, course: " Backend Web development", gender: "female", school : "New Horizon College"},
+    {Name: "Adarabioyo Jumoke", age: 32, course: " Frontend Web development", gender: "female", school : "New Horizon College"},
+    {Name: "Asude Basit", age: 22, course: " Cyber Security", gender: "male", school : "New Horizon College"},
+    {Name: "Onatoye Barakah", age: 15, course: " Frontend Web development", gender: "female", school : "New Horizon College"},
+    {Name: "Abdurrahman Adam", age: 27, course: " Data Analysis", gender: "male", school : "New Horizon College"}
+
+]
+for (let i = 0; i < classDetails.length; i++ ) {
+    console.log("My name is " + classDetails[i].Name + ". "  + "" + "I am " + classDetails[i].age + " years of age." + "  " + "I am a " + classDetails[i].gender + " student " +  "learning " + classDetails[i].course + " at " + classDetails[i].school);
+}
